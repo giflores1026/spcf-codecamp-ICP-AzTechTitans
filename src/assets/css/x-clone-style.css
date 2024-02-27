@@ -1,0 +1,133 @@
+body {
+    margin: 0;
+    background-color: #000000;
+}
+
+@font-face {
+    font-family: 'ChirpExtended';
+    src: url('../font/ChirpExtendedHeavy.ttf')  format('truetype');
+}
+
+@font-face {
+    font-family: 'ChirpRegular';
+    src: url('../font/ChirpRegular.ttf')  format('truetype');
+}
+
+@font-face {
+    font-family: 'ChirpMedium';
+    src: url('../font/ChirpMedium.ttf')  format('truetype');
+}
+
+.logo {
+    width: 57%;
+    margin: 168px 0 170px 0;
+    float: left;
+}
+
+img {
+    width: 330px;
+    padding: 0 0 0 240px;
+}
+
+.content {
+    display: inline-block;
+    width: 43%;
+    margin: 90px 0 170px 0;
+}
+
+h1 {
+    color: #e7e9ea;
+    font-family: "ChirpExtended";
+    display: inline;
+    letter-spacing: -1.2px;
+    font-size: 65px;
+}
+
+h3 {
+    color: #e7e9ea;
+    font-family: "ChirpExtended";
+    font-size: 30px;
+    margin-top: 60px;
+}
+
+.google, .apple {
+    font-family: "ChirpMedium";
+    font-size: 17px;
+    width: 310px;
+    display: block;
+    margin-bottom: 10px;
+    height: 40px;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.icon-logo {
+    width: 15px;
+    padding: 0 10px 0 70px;
+}
+
+.or {
+    font-family: "ChirpMedium";
+    font-size: 20px;
+    color: white;
+    display: inline-block;
+    padding: 0 10px;
+    margin: 0 0 10px 0;
+}
+
+hr {
+    color: #e7e9ea;
+    width: 125px;
+    border-top: 0 solid rgb(47, 51, 54);
+    display: inline-block;
+    margin: 5px;
+}
+
+.create {
+    font-family: "ChirpMedium";
+    font-size: 17px;
+    width: 310px;
+    display: block;
+    margin-bottom: 0;
+    height: 40px;
+    border-radius: 40px;
+    background-color: #1d9bf0;
+    color: white;
+    border-style: none;
+}
+
+.privacy {
+    font-family: "ChirpMedium";
+    font-size: 11px;
+    color: #5b6d6c;
+    display: inline-block;
+    width: 315px;
+    margin-top: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: #0c5dc1;
+}
+
+.account {
+    color: white;
+    font-family: "ChirpMedium";
+    font-size: 18px;
+}
+
+.sign-in {
+    font-family: "ChirpRegular";
+    font-size: 16px;
+    font-weight: 600;
+    width: 310px;
+    display: block;
+    margin-bottom: 10px;
+    height: 40px;
+    border-radius: 40px;
+    background-color: black;
+    color: #1d9bf0;
+    letter-spacing: 1.2px;
+    border: 1px solid #5b6d6c;
+}
